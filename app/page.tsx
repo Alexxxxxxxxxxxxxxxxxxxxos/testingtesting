@@ -49,7 +49,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="min-h-screen bg-black flex flex-col items-center justify-center gap-16">
+    <main className="h-dvh bg-black flex flex-col items-center justify-center gap-16 p-4">
       <div className="text-white text-5xl md:text-6xl lg:text-7xl font-light">
         {text1}
         {showCursor1 && <span className="inline-block w-1 h-[1em] bg-white ml-1 animate-pulse" />}
